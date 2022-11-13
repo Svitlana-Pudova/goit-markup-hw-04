@@ -1,0 +1,332 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    max-width: 1600px;
+    }
+header {
+    border-bottom: 1px solid #ECECEC; 
+}
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ /* Header */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-nav {
+    display: flex;
+    gap: 93px;
+    align-items: center;
+}
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.link {
+    text-decoration: none;
+}
+.logotype-web,
+.logotype-web-footer,
+.logotype-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    }
+.logotype-web,
+.logotype-web-footer {
+    color: #2196F3;
+    }
+.logotype-web-footer {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.logotype-studio-header {
+    color: #000000;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.logotype-studio-footer {
+    color: #FFFFFF;
+}
+.list {
+    list-style: none;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin-left: auto;
+}
+.menu-nav,
+.contacts-header {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+}
+.menu-nav {
+    color: #212121;
+}
+.contacts-header {
+    color:#757575;
+}
+.current {
+    color: #2196F3;
+}
+.menu-nav:hover,
+.menu-nav:focus,
+.contacts-header:hover,
+.contacts-header:focus {
+    color: #2196F3;
+}
+/* Main - page 1 - Студія */
+/* Section-hero */
+.hero {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 696px;
+    margin: 0 auto 30px;
+   
+}
+.button-top {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;  
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;  
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 30px;
+    
+}
+/* Section-features */
+.features-section {
+    padding-bottom: 0;
+}
+.features {
+    display: none;
+}
+.features-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.feature-title {
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.feature-text {
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+    width: 270px;
+}
+/* Section - Чим займаємося */
+.areas-list {
+    display: flex;
+    gap: 30px;
+    flex-basis: calc((100%-30px*2)/3);
+    justify-content: center;
+}
+.pictures-block {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+/* Section - Наша команда */
+.our-team {
+    background-color: #F5F4FA;
+}
+.team-list {
+    display: flex;
+    gap: 30px;
+    flex-basis: calc((100%-30px*3)/4);
+    justify-content: center;
+}
+.person {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+.names-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.specialty {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-bottom: 30px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* Footer */
+ .footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+ }
+ .address {
+    font-style: normal;
+    margin-top: 20px;
+ }
+.address-footer, 
+.contacts-footer {
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+.address-footer {
+    color: #FFFFFF;
+    
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
+}
+.address-footer:hover,
+.address-footer:focus,
+.contacts-footer:hover,
+.contacts-footer:focus {
+    color:#2196F3;
+}
+.footer-list {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+}
+/* Portfolio - Main */
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+.pictures-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.item-portfolio {
+    width: 370px;
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #212121;
+    padding: 6px 22px;
+    background-color: #F5F4FA;
+    border-color: transparent;
+    border-radius: 4px;
+}
+ .button:hover,
+ .button:focus,
+ .button:active {
+    color: #FFFFFF;
+    background-color: #2196F3;
+ }
+.image-title {
+    padding: 20px 24px;
+    border: 1px solid  #EEEEEE;
+    border-top: 0;
+}
+.image-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-bottom: 4px;
+}
+.image-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
